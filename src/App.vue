@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div>
+        <MyTable />
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import MyTable from '@/components/MyTable.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'Overwatch-prog-rating',
+        components: {
+            MyTable,
+        },
+    };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+    body {
+        margin: 0;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        color: #000;
+        background-color: #ededed;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 </style>
