@@ -4,7 +4,9 @@
     "private": true,
     "scripts": {
         "dev": "vue-cli-service serve",
-        "build": "vue-cli-service build"
+        "build": "vue-cli-service build",
+        "deploy": "scp -r dist/css dist/js dist/index.html u1296340@31.31.196.240:./www/focusinfo.ru/verwatch-prog-rating",
+        "bd": "yarn build && yarn deploy"
     },
     "dependencies": {
         "core-js": "^3.8.3",
