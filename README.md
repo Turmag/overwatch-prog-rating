@@ -1,24 +1,3 @@
-# overwatch-prog-rating
+# Рейтинг разработчиков, как у игроков в Overwatch
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Давайте представим, что разработчики достигают своих рангов также, как игроки в Overwatch. Я думаю, что выглядело бы это примерно так.
