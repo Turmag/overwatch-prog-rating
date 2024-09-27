@@ -1,0 +1,67 @@
+:root {
+    --color: #222;
+    --color-hover: #444;
+    --color-magic: #9b1cd2;
+    --background-color: #cccec2;
+    --btn-bg-color: #dbd9d9;
+    --btn-bg-color-hover: #dbdbdb;
+    --btn-bg-color-active: #c0c0c0;
+
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: inherit;
+    color: var(--color);
+    transition: .2s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--color-hover);
+}
+
+body {
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--color);
+
+    &.dark {
+        --color: #fff;
+        --color-hover: #bbb;
+        --color-magic: #b200ff;
+        --background-color: #33313d;
+        --btn-bg-color: #5a5a5a;
+        --btn-bg-color-hover: #706d6d;
+        --btn-bg-color-active: #858585;
+    }
+}
+
+#app {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    line-height: 35px;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
