@@ -1,7 +1,7 @@
 <template>
     <header :class="$style.header">
         <h1 :class="$style.title">
-            Ранги программистов
+            А что, если б ранги Overwatch были у программистов?
         </h1>
         <Switch />
     </header>
